@@ -1,21 +1,19 @@
 #include <string>
+#include <cctype>
 
 bool isPalindrom(const std::string &str)
 {
-
-    // Specify the starting and edning indexes // Init two pointers
-    size_t left = 0;
-    size_t right = str.size() - 1;
-
-    // Till the left is less than right // using std and tolower method, compare using str[index element value access]
-    while (left < right)
+    std::string lowerCaseStr;
+    for (char c : str)
     {
-        if (std::tolower(str[left]) != std::tolower(str[right]))
+        if (std::isalnum(c))
         {
-            return false;
+            lowerCaseStr += std::tolower(c);
         }
-        left++;
-        right--;
     }
-    return true;
+
+    std::string reversed = lowerCaseStr;
+    std::reverse(reversed.begin(), reversed.end());
+
+    return lowerCaseStr == reversed;
 }
