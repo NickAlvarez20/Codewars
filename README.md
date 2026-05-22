@@ -1,4 +1,4 @@
-# Codewars Solutions Project
+# Four 5-KYU Yellow Belts from Codewars Project
 ## Table of Contents
 - [Project Name](#project-name)
 - [About](#about)
@@ -12,7 +12,7 @@
 - [Credits & Acknowledgements](#credits--acknowledgements)
 - [Contact](#contact)
 ## Project Name
-Codewars Solutions
+Four 5-KYU Yellow Belts from Codewars Solutions
 ## About
 This repository contains my personal solutions to various coding challenges (katas) from Codewars, organized by programming language. Solutions in C++, Go, and SQL are in the main branch, with additional TypeScript solutions in the typeScriptChallenges branch.
 ## Prerequisites
